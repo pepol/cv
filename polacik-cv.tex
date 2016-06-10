@@ -1,0 +1,92 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\name{Peter Pol\'{a}\v{c}ik\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{{\bf Present Address} \\ VBA 1126 \\ Mlyny, Star\'{e} Grunty 36 \\
+        841 04 Bratislava}
+\address{{\bf Permanent Address} \\ I. Olbrachta 988/19 \\ 028 01 Trsten\'{a} \\
+        +421 904 038 631 \\ pepol@imterra.com}
+
+
+\begin{resume}
+
+%\section{Objective}
+%A part-time student position in the field of software development with \\
+%special interest in artificial intelligence
+
+\section{Experience}
+
+{\bf Software Engineering Intern,} Alcatel-Lucent, Slovakia \hfill January 2016 - present
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Working on router monitoring system
+\end{itemize}
+
+{\bf Site Reliability Intern,} Google, Switzerland \hfill June 2015 - October 2015
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Worked on A/B testing and push-on-green deployment of internal software
+\end{itemize}
+
+{\bf Software Engineering Intern,} Google, Poland \hfill June 2014 - September 2014
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Worked on internal version of Cloud Autoscaler
+\end{itemize}
+
+{\bf ANAlab Intern,} Anasoft, Slovakia \hfill March 2014 - June 2014
+\begin{itemize} \itemsep -2pt  % reduce space between items
+\item Worked on project Android SDK for modifying PDF documents
+\item Customization of existing open-source Android PDF SDKs to view digital signatures.
+\end{itemize}
+
+
+\section{Education}
+2013 - 2016 (expected) \\
+Bachelor's degree in Computer Science, Faculty of Mathematics, Physics and Informatics \\
+Comenius University in Bratislava
+
+2005 - 2013 \\
+Gymn\'{a}zium Martina Hattalu Trsten\'{a} \\
+High school education with focus on Informatics
+
+\section{Academic \\ Honors}
+National Merit Scholarship
+
+% Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{3in}}
+       \underline{Programming Languages:} & C, C++, Python, Go, Erlang, GNU bash, x86 Assembly, Octave, Pascal, Javascript, Common Lisp, PHP (basics), Perl (basics) \\
+       \underline{Other Languages:} & awk, sed, HTML, XML, JSON, CSS, \LaTeX, SQL (basics) \\
+
+       \underline{Other technologies:} & Protocol Buffers \\
+       \underline{Operating Systems:} & Linux, FreeBSD, OpenBSD, Microsoft Windows \\
+       \underline{Version Control Systems:} & git, Mercurial, Subversion, Perforce
+ \end{tabular}
+
+Repository of my programming projects is available on GitHub: https://github.com/pepol
+
+\section{Other \\ Skills}
+English language (B2 level) - active written and spoken usage \\
+German language (basics) - passive usage \\
+Driver's license (group B) - since 2012 \\
+Skipper of Marine Recreational Watercraft
+
+\section{Extra-curricular \\ Activities}
+Leader of {\it Robotics Interest Group} for primary and secondary school students at Joint School of St. Francis in Bratislava. \\
+Member of {\it The Long Now Foundation}. \\
+Member of {\it Free Software Foundation Europe}. \\
+Attended {\it LinuxCon \& Embedded Linux Conference} 2011 in Prague. \\
+Participated in {\it Google Code-in} 2011 and 2012. \\
+Successfully completed {\it Machine Learning} course on Coursera.org (provided by Stanford University). \\
+Slovak Red Cross Voluntary Blood Donor \\
+Attended {\it Social Dance Course} (beginners level) by TS Maestro.
+\end{resume}
+\end{document}
